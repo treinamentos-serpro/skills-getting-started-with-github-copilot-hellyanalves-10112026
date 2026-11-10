@@ -67,7 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
               }
 
+              const selectedActivity = activitySelect.value;
               await fetchActivities();
+              activitySelect.value = selectedActivity;
             } catch (error) {
               messageDiv.textContent = "Failed to remove participant. Please try again.";
               messageDiv.className = "error";
