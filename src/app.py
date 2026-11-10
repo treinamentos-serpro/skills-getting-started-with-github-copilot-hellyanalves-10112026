@@ -74,6 +74,12 @@ activities = {
         "schedule": "Tuesdays, 3:30 PM - 4:30 PM",
         "max_participants": 14,
         "participants": []
+    },
+    "Music Club": {
+        "description": "Explore music, learn instruments, and perform together",
+        "schedule": "Wednesdays, 3:30 PM - 4:30 PM",
+        "max_participants": 16,
+        "participants": []
     }
 }
 
